@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anatomy Pilates & Myofascial Clinic in Bay Harbor Islands, FL. Expert pilates sessions, myofascial release, and physical rehabilitation. Women-owned. 4.9★ rated.">
+    <meta name="keywords" content="pilates, myofascial release, physical therapy, Bay Harbor Islands, sciatica treatment, pilates studio">
+    <meta name="author" content="Anatomy Pilates & Myofascial Clinic">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Anatomy Pilates & Myofascial Clinic | Bay Harbor Islands, FL">
+    <meta property="og:description" content="Expert pilates and myofascial release therapy. Healing through movement and personalized care. Women-owned studio in Bay Harbor Islands.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://anatomypilatesclinic.com">
+    <meta property="og:image" content="https://anatomypilatesclinic.com/og-image.jpg">
+    <meta name="theme-color" content="#00897b">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <title>Anatomy Pilates & Myofascial Clinic | Bay Harbor Islands, FL</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HealthAndBeautyBusiness",
+        "name": "Anatomy Pilates & Myofascial Clinic",
+        "image": "https://anatomypilatesclinic.com/og-image.jpg",
+        "description": "Expert pilates and myofascial release therapy in Bay Harbor Islands, FL",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1045 Kane Concourse #216",
+            "addressLocality": "Bay Harbor Islands",
+            "addressRegion": "FL",
+            "postalCode": "33154",
+            "addressCountry": "US"
+        },
+        "telephone": "+1-786-470-4595",
+        "url": "https://anatomypilatesclinic.com",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 25.8869922,
+            "longitude": -80.1304462
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.9,
+            "ratingCount": 50,
+            "bestRating": 5,
+            "worstRating": 1
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Tuesday",
+                "opens": "10:00",
+                "closes": "19:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Wednesday",
+                "opens": "10:00",
+                "closes": "19:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Thursday",
+                "opens": "10:00",
+                "closes": "19:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Friday",
+                "opens": "10:00",
+                "closes": "19:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "08:30",
+                "closes": "15:30"
+            }
+        ],
+        "sameAs": [
+            "https://www.google.com/maps/place/Bay+Harbor+Islands,+FL"
+        ],
+        "knowsAbout": [
+            "Pilates",
+            "Myofascial Release",
+            "Physical Therapy",
+            "Sciatica Treatment",
+            "Physical Rehabilitation"
+        ]
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-light: #f8f9fa;
+            --text-dark: #1a1a2e;
+            --teal-accent: #00897b;
+            --teal-light: #e0f2f1;
+            --teal-dark: #004d40;
+            --white: #ffffff;
+            --gray-light: #f5f5f5;
+            --gray-medium: #e0e0e0;
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 2rem;
+            --spacing-lg: 3rem;
+            --spacing-xl: 4rem;
+            --spacing-2xl: 5rem;
+            --font-syne: 'Syne', sans-serif;
+            --font-work: 'Work Sans', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-work);
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: var(--spacing-sm) var(--spacing-lg);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-syne);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--teal-dark);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--teal-accent);
+        }
+
+        .nav-cta {
+            display: flex;
+            gap: var(--spacing-sm);
+            align-items: center;
+        }
+
+        .cta-button {
+            background: var(--teal-accent);
+            color: var(--white);
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            font-family: var(--font-work);
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+        }
+
+        .cta-button:hover {
+            background: var(--teal-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 137, 123, 0.3);
+        }
+
+        .cta-button.secondary {
+            background: transparent;
+            color: var(--teal-accent);
+            border: 2px solid var(--teal-accent);
+        }
+
+        .cta-button.secondary:hover {
+            background: var(--teal-light);
+            border-color: var(--teal-dark);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background: var(--text-dark);
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        /* Hero Section */
+        .hero {
+            margin-top: 80px;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #e0f2f1 0%, #f8f9fa 50%, #e0f2f1 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: var(--spacing-lg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(0, 137, 123, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .hero-container {
+            max-width: 1200px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-xl);
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-content h1 {
+            font-family: var(--font-syne);
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: var(--spacing-md);
+            color: var(--teal-dark);
+        }
+
+        .hero-content h1 span {
+            color: var(--teal-accent);
+        }
+
+        .rating-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            background: var(--white);
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            margin-bottom: var(--spacing-md);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            font-weight: 600;
+        }
+
+        .rating-badge .stars {
+            color: #ffc107;
+        }
+
+        .hero-tagline {
+            font-size: 1.25rem;
+            color: var(--text-dark);
+            margin-bottom: var(--spacing-lg);
+            line-height: 1.8;
+            opacity: 0.95;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: var(--spacing-md);
+            flex-wrap: wrap;
+        }
+
+        .hero-image {
+            position: relative;
+            height: 500px;
+            background: linear-gradient(135deg, var(--teal-accent) 0%, var(--teal-dark) 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: var(--white);
+            box-shadow: 0 20px 60px rgba(0, 137, 123, 0.2);
+        }
+
+        /* Stats Section */
+        .stats {
+            background: var(--white);
+            padding: var(--spacing-2xl) var(--spacing-lg);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--spacing-lg);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: var(--spacing-lg);
+        }
+
+        .stat-number {
+            font-family: var(--font-syne);
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--teal-accent);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        /* Services Section */
+        .services {
+            padding: var(--spacing-2xl) var(--spacing-lg);
+            background: var(--bg-light);
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-family: var(--font-syne);
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--teal-dark);
+            margin-bottom: var(--spacing-lg);
+            text-align: center;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--spacing-lg);
+        }
+
+        .service-card {
+            background: var(--white);
+            padding: var(--spacing-lg);
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border-left: 5px solid var(--teal-accent);
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(0, 137, 123, 0.2);
+        }
+
+        .service-icon {
+            font-size: 2.5rem;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .service-card h3 {
+            font-family: var(--font-syne);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--teal-dark);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.8;
+            font-size: 0.95rem;
+        }
+
+        /* Reviews Section */
+        .reviews {
+            padding: var(--spacing-2xl) var(--spacing-lg);
+            background: var(--white);
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--spacing-lg);
+            margin-top: var(--spacing-lg);
+        }
+
+        .review-card {
+            background: var(--teal-light);
+            padding: var(--spacing-lg);
+            border-radius: 12px;
+            border-left: 4px solid var(--teal-accent);
+        }
+
+        .review-text {
+            color: var(--text-dark);
+            margin-bottom: var(--spacing-md);
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        .review-author {
+            font-weight: 600;
+            color: var(--teal-dark);
+            font-style: normal;
+        }
+
+        .review-rating {
+            color: #ffc107;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        /* Location Section */
+        .location {
+            padding: var(--spacing-2xl) var(--spacing-lg);
+            background: var(--bg-light);
+        }
+
+        .location-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: var(--spacing-xl);
+            align-items: start;
+        }
+
+        .map-container {
+            height: 500px;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .location-info {
+            background: var(--white);
+            padding: var(--spacing-lg);
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .location-info h3 {
+            font-family: var(--font-syne);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--teal-dark);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .location-detail {
+            margin-bottom: var(--spacing-md);
+            display: flex;
+            gap: var(--spacing-sm);
+            align-items: flex-start;
+        }
+
+        .location-detail strong {
+            color: var(--teal-accent);
+            min-width: 80px;
+        }
+
+        .hours-list {
+            list-style: none;
+            margin-top: var(--spacing-md);
+        }
+
+        .hours-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: var(--spacing-xs) 0;
+            border-bottom: 1px solid var(--gray-medium);
+            font-size: 0.95rem;
+        }
+
+        .hours-list li:last-child {
+            border-bottom: none;
+        }
+
+        .hours-list .day {
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .hours-list .time {
+            color: var(--teal-accent);
+            font-weight: 600;
+        }
+
+        .hours-list .open {
+            color: #4caf50;
+        }
+
+        .location-detail a {
+            color: var(--teal-accent);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .location-detail a:hover {
+            color: var(--teal-dark);
+        }
+
+        /* CTA Section */
+        .final-cta {
+            background: linear-gradient(135deg, var(--teal-dark) 0%, var(--teal-accent) 100%);
+            color: var(--white);
+            padding: var(--spacing-2xl) var(--spacing-lg);
+            text-align: center;
+        }
+
+        .final-cta h2 {
+            font-family: var(--font-syne);
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .final-cta p {
+            font-size: 1.1rem;
+            margin-bottom: var(--spacing-lg);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button.white {
+            background: var(--white);
+            color: var(--teal-accent);
+        }
+
+        .cta-button.white:hover {
+            background: var(--gray-light);
+            color: var(--teal-dark);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: var(--white);
+            padding: var(--spacing-lg);
+            text-align: center;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            nav {
+                padding: var(--spacing-sm);
+            }
+
+            .nav-cta {
+                flex-direction: column;
+                display: none;
+            }
+
+            .nav-cta.active {
+                display: flex;
+                position: absolute;
+                top: 80px;
+                right: 0;
+                left: 0;
+                background: var(--white);
+                flex-direction: column;
+                padding: var(--spacing-lg);
+                gap: var(--spacing-md);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            }
+
+            .hero {
+                margin-top: 70px;
+                min-height: auto;
+                padding: var(--spacing-lg) var(--spacing-md);
+            }
+
+            .hero-container {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-image {
+                height: 300px;
+            }
+
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+                gap: var(--spacing-md);
+                padding: var(--spacing-lg);
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .reviews-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .location-container {
+                grid-template-columns: 1fr;
+            }
+
+            .map-container {
+                height: 350px;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .hero-ctas {
+                flex-direction: column;
+            }
+
+            .cta-button {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .stats {
+                grid-template-columns: 1fr;
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.75rem;
+            }
+
+            .hero-tagline {
+                font-size: 1rem;
+            }
+
+            .final-cta h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            nav, .final-cta, .reviews {
+                display: none;
+            }
+
+            body {
+                background: var(--white);
+            }
+        }
+
+        /* Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+
+        /* Loading optimization */
+        img {
+            loading: lazy;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Anatomy <span>Pilates</span></a>
+            <div class="nav-cta" id="navMenu">
+                <a href="tel:+17864704595" class="cta-button">Call Now</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="rating-badge">
+                    <span class="stars">★★★★★</span>
+                    <span>4.9 (50 reviews)</span>
+                </div>
+                <h1>Healing Through <span>Movement</span></h1>
+                <p class="hero-tagline">Expert pilates and myofascial release therapy tailored to your body's unique needs. Experience personalized care from a women-owned clinic.</p>
+                <div class="hero-ctas">
+                    <a href="tel:+17864704595" class="cta-button">Call (786) 470-4595</a>
+                    <a href="#location" class="cta-button secondary">Get Directions</a>
+                </div>
+            </div>
+            <div class="hero-image">🧘</div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stat-card">
+            <div class="stat-number">4.9★</div>
+            <div class="stat-label">Client Rating</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">50+</div>
+            <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Women-Owned</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Personalized Care</div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="section-container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏋️</div>
+                    <h3>Pilates Sessions</h3>
+                    <p>Strengthen your core, improve flexibility, and build lean muscle with expertly guided pilates classes tailored to your fitness level and goals.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💆</div>
+                    <h3>Myofascial Release</h3>
+                    <p>Release muscle tension and improve mobility with specialized myofascial release techniques that target deep tissue restrictions and improve circulation.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🦵</div>
+                    <h3>Sciatica Treatment</h3>
+                    <p>Find relief from sciatica pain with targeted therapeutic techniques. Many clients experience significant improvement within just a few sessions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Physical Rehabilitation</h3>
+                    <p>Recover from injury or surgery with comprehensive physical rehabilitation programs designed to restore function and prevent future complications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="section-container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Yuliet is incredibly professional and very knowledgeable in her profession. She mixes up a wide range of skills and specifically tailors to your needs."</p>
+                    <p class="review-author">— Daniel Chinea</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Juliet is so knowledgeable and professional! The best I've met. She helped me 3 times with myofascial treatment. Within three sessions, I was back to having no pain!!"</p>
+                    <p class="review-author">— Anat Amitay-Vinograd</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"I went out of need but then continue to go because it has become part of my routine. The office is clean and there is no better therapist in the area."</p>
+                    <p class="review-author">— Curitas Medical Centers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="section-container">
+            <h2 class="section-title">Visit Us</h2>
+            <div class="location-container">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.3282639262537!2d-80.13044622346436!3d25.88699217649695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b3a0d9d9d9d9%3A0x0!2s1045%20Kane%20Concourse%20%23216%2C%20Bay%20Harbor%20Islands%2C%20FL%2033154!5e0!3m2!1sen!2sus!4v1700000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="location-info">
+                    <h3>Location & Hours</h3>
+
+                    <div class="location-detail">
+                        <strong>Address</strong>
+                        <a href="https://www.google.com/maps/place/1045+Kane+Concourse+%23216,+Bay+Harbor+Islands,+FL+33154" target="_blank" rel="noopener noreferrer">1045 Kane Concourse #216<br>Bay Harbor Islands, FL 33154</a>
+                    </div>
+
+                    <div class="location-detail">
+                        <strong>Phone</strong>
+                        <a href="tel:+17864704595">(786) 470-4595</a>
+                    </div>
+
+                    <h3 style="margin-top: var(--spacing-lg); margin-bottom: var(--spacing-md); font-size: 1.1rem;">Hours</h3>
+                    <ul class="hours-list">
+                        <li>
+                            <span class="day">Monday</span>
+                            <span class="time">Closed</span>
+                        </li>
+                        <li>
+                            <span class="day">Tuesday</span>
+                            <span class="time">10 AM–7 PM</span>
+                        </li>
+                        <li>
+                            <span class="day">Wednesday</span>
+                            <span class="time">10 AM–7 PM</span>
+                        </li>
+                        <li>
+                            <span class="day">Thursday</span>
+                            <span class="time">10 AM–7 PM</span>
+                        </li>
+                        <li>
+                            <span class="day">Friday</span>
+                            <span class="time">10 AM–7 PM</span>
+                        </li>
+                        <li>
+                            <span class="day">Saturday</span>
+                            <span class="time open">8:30 AM–3:30 PM</span>
+                        </li>
+                        <li>
+                            <span class="day">Sunday</span>
+                            <span class="time">Closed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+        <div class="section-container">
+            <h2>Ready to Transform Your Health?</h2>
+            <p>Book your personalized pilates or myofascial release session today. Experience the difference expert care can make.</p>
+            <a href="tel:+17864704595" class="cta-button white">Call (786) 470-4595</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Anatomy Pilates & Myofascial Clinic. All rights reserved. Women-owned business in Bay Harbor Islands, FL.</p>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-cta a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Highlight current day in hours
+        function highlightCurrentDay() {
+            const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            const today = new Date().getDay();
+            const currentDayName = days[today];
+
+            const hoursList = document.querySelectorAll('.hours-list li');
+            hoursList.forEach(li => {
+                if (li.querySelector('.day').textContent === currentDayName) {
+                    li.style.backgroundColor = 'rgba(0, 137, 123, 0.1)';
+                    li.style.borderLeft = '4px solid var(--teal-accent)';
+                    li.style.paddingLeft = 'var(--spacing-xs)';
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', highlightCurrentDay);
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
